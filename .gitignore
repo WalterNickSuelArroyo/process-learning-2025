@@ -1,0 +1,25 @@
+# Ignorar node_modules en la ruta específica
+TailwindCSS/instalacion/node_modules/
+
+# Ignorar logs y otros archivos generados por Node.js
+TailwindCSS/instalacion/npm-debug.log*
+TailwindCSS/instalacion/yarn-debug.log*
+TailwindCSS/instalacion/yarn-error.log*
+
+# Archivos de compilación y cache de Tailwind
+TailwindCSS/instalacion/dist/
+TailwindCSS/instalacion/build/
+TailwindCSS/instalacion/*.css.map
+TailwindCSS/instalacion/*.min.css
+
+# Configuración de editores/IDEs
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Logs globales
+*.log
